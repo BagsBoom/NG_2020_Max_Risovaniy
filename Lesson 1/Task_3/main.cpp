@@ -14,7 +14,7 @@ int main()
     if(inone*sobrano >= need){
         cout << "YES";
     }
-        if(inone*sobrano < need){
+    if(inone*sobrano < need){
         cout << "NO";
     }
 }
