@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int need, inone, sobrano, so;
+    int need, inone, sobrano;
     cout << "Skolko oreshkov nuzhno belochke - ";
     cin >> need;
     cout << "Skolko oreshkov v odnoy shiske - ";
