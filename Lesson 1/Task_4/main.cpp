@@ -10,13 +10,15 @@ int main()
     if (x < 1001){
         cout << "Rabotai bolshe!";
     }
-    if (x > 1000){
+
+    if(x > 1000){
         if(x < 1000000){
-            cout << "Tak derzhat!";
+        cout << "Tak derzhat!";
+        }
+        if(x > 999999){
+        cout << "Ti millioner!";
         }
     }
-    if(x > 999999){
-        cout << "Ti millioner!";
-    }
+
     cout << "No ti molodec!";
 }
