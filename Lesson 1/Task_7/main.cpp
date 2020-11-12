@@ -13,11 +13,12 @@ int main()
         while (z <= x)
         {
             cout << z;
-            if (z != x){
+            if (z != x)
+            {
                 cout << ", ";
             }
             z++;
         }
         x++;
-       1 }
+        }
 }
