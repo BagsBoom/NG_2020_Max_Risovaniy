@@ -6,22 +6,18 @@ int main()
 {
     int x = 1;
     int s;
-    int z = 1;
     int y = 1;
     cout << "Enter size - ";
     cin >> s;
     // First
     while (x <= s)
     {
-        while (y <= s)
+        while (y != s + 1)
         {
             cout << "*";
-            if (y == s)
-            {
-                cout << endl;
-            }
             y++;
         }
+        cout << endl;
         y = 1;
         x++;
     }
@@ -44,24 +40,18 @@ int main()
     // Third
     while (x <= s)
     {
-        while (y <= s - x)
+        while (y != s - x + 1)
         {
             cout << " ";
             y++;
         }
-        while (z <= x)
-        {
+        while(y != s + 1){
             cout << "*";
-            z++;
-        }
-        if (x == z - 1)
-        {
-            cout << endl;
-        }
-
+          y++;
+          }
+        cout << endl;
         x++;
         y = 1;
-        z = 1;
     }
     cout << endl;
     x = 1;
@@ -88,15 +78,13 @@ int main()
             cout << " ";
             y++;
         }
-        while (z <= s - x + 1)
-        {
+        while (y != s + 1)
+       {
             cout << "*";
-            z++;
-        }
+            y++;
+       }
         cout << endl;
-        z = 1;
         y = 1;
-
         x++;
     }
 }
