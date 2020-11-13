@@ -12,6 +12,6 @@ int main()
        cout << x << ", ";
         x++;
         }
-        y = 1;
-        cout << x;
+    y = 1;
+    cout << x;
 }
