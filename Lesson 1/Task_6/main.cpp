@@ -45,10 +45,11 @@ int main()
             cout << " ";
             y++;
         }
-        while(y != s + 1){
+        while (y != s + 1)
+        {
             cout << "*";
-          y++;
-          }
+            y++;
+        }
         cout << endl;
         x++;
         y = 1;
@@ -79,10 +80,10 @@ int main()
             y++;
         }
         while (y != s + 1)
-       {
+        {
             cout << "*";
             y++;
-       }
+        }
         cout << endl;
         y = 1;
         x++;
