@@ -6,19 +6,12 @@ int main()
 {
     int x,y,z;
     cout << "Enter number - ";
-    cin >> x;
-    y = x;
-    while (x <= y)
+    cin >> y;
+    while (x != y)
         {
-        while (z <= x)
-        {
-            cout << z;
-            if (z != x)
-            {
-                cout << ", ";
-            }
-            z++;
-        }
+       cout << x << ", ";
         x++;
         }
+        y = 1;
+        cout << x;
 }
