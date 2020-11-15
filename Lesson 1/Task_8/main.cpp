@@ -4,35 +4,35 @@ using namespace std;
 
 int main()
 {
-    int x = 1;
-    int y = 1;
-    int s;
-    int z = 1;
+    int numOfIteration = 1;
+    int output = 1;
+    int userSize;
+    int widthTree = 1;
     cout << "Enter size of the christmas tree - ";
-    cin >> s;
-    z = (s * 2) - 1;
-    while (x <= s)
+    cin >> userSize;
+    widthTree = (userSize * 2) - 1;
+    while (numOfIteration <= userSize)
     {
-        while (y <= s - x)
+        while (output <= userSize - numOfIteration)
         {
             cout << " ";
-            y++;
+            output++;
         }
-        while (y <= z / 2 + x)
+        while (output <= widthTree / 2 + numOfIteration)
         {
             cout << "*";
-            y++;
+            output++;
         }
         cout << endl;
-        x++;
-        y = 1;
+        numOfIteration++;
+        output = 1;
     }
-    while (y <= z / 2)
+    while (output <= widthTree / 2)
     {
         cout << " ";
-        y++;
+        output++;
     }
     cout << "*";
-    y = 1;
+    output = 1;
 }
 
