@@ -11,9 +11,9 @@ int main()
     int count;
     while (stroka[i]!=0) {
         if(stroka[i] >= 97 && stroka[i] <= 122){
-        count = stroka[i];
-        count = count - 32;
-        stroka[i] = count;
+            count = stroka[i];
+            count = count - 32;
+            stroka[i] = count;
         }
         i++;
     }
