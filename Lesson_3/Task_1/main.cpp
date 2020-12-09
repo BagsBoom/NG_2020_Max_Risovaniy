@@ -9,13 +9,13 @@ int main()
     int word = 0;
     cout << "Enter stroku: ";
     cin.getline(stroka, 20);
-    for(i = 0; i < 20; i++){
-        if(stroka[i] == '\0') break;
+    while(stroka[i] != 0){
         if(stroka[i] >= 97 && stroka[i] <= 122){
             if(!(stroka[i + 1] >= 97 && stroka[i + 1] <= 122)){
                 word++;
             }
         }
+        i++;
     }
     cout << "Result: " << word << endl;
 }
