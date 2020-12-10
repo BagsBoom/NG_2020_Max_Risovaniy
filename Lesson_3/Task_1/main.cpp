@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-    char stroka[20];
+    char stroka[100];
     int i = 0;
     int word = 0;
     cout << "Enter stroku: ";
-    cin.getline(stroka, 20);
+    cin.getline(stroka, 100);
     while(stroka[i] != 0){
-        if(stroka[i] >= 97 && stroka[i] <= 122){
-            if(!(stroka[i + 1] >= 97 && stroka[i + 1] <= 122)){
+        if(stroka[i] >= 'a' && stroka[i] <= 'z'){
+            if(!(stroka[i + 1] >= 'a' && stroka[i + 1] <= 'z')){
                 word++;
             }
         }
