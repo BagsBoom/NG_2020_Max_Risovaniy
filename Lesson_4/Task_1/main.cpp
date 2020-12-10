@@ -35,6 +35,7 @@ int sum(int money){
     allMoney = allMoney + money;
     cout << allMoney;
     cout << endl;
+    return allMoney;
 }
 void eternalCycle(){
     int i;
@@ -50,6 +51,6 @@ void eternalCycle(){
 }
 int main()
 {
-    arrayCycle(10);
+    arrayCycle(num_card);
     eternalCycle();
 }
