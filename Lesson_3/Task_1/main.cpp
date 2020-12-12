@@ -10,8 +10,8 @@ int main()
     cout << "Enter stroku: ";
     cin.getline(stroka, 100);
     while(stroka[i] != 0){
-        if(stroka[i] >= 'a' && stroka[i] <= 'z'){
-            if(!(stroka[i + 1] >= 'a' && stroka[i + 1] <= 'z')){
+        if((stroka[i] >= 'a' && stroka[i] <= 'z') || (stroka[i] >= 'A' && stroka[i] <= 'Z')){
+            if(!(stroka[i + 1] >= 'a' && stroka[i + 1] <= 'z') && !(stroka[i + 1] >= 'A' && stroka[i + 1] <= 'Z')){
                 word++;
             }
         }
