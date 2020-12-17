@@ -12,7 +12,7 @@ void cards(int numOfCards){
         cout << card[j] << " ";
     }
 }
-void arrayCycle(int numOfCards){
+void OutputAllCards(int numOfCards){
     for (int i = 0; i < numOfCards; i++)
     {
         card[i] = 0;
@@ -38,12 +38,12 @@ int sum(int money){
     return allMoney;
 }
 void eternalCycle(){
-    int i;
+    int NumOfCardFromUser;
     int money;
     while(true){
-        i = UserInputNumOfCard();
+        NumOfCardFromUser = UserInputNumOfCard();
         money = UserInputMoney();
-        card[i - 1] = card[i - 1] + money;
+        card[NumOfCardFromUser - 1] = card[NumOfCardFromUser - 1] + money;
         cards(num_card);
         cout << endl;
         sum(money);
@@ -51,6 +51,6 @@ void eternalCycle(){
 }
 int main()
 {
-    arrayCycle(num_card);
+    OutputAllCards(num_card);
     eternalCycle();
 }
