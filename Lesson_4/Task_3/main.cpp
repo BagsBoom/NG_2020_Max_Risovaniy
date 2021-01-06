@@ -2,9 +2,12 @@
 
 using namespace std;
 
-char stroka[100];
-
-void countsOfWords()
+void enterString(char *stroka)
+{
+    cout << "Enter stroku: ";
+    cin.getline(stroka, 100);
+}
+void countsOfWords(char *stroka)
 {
     int i = 0;
     int word = 0;
@@ -18,13 +21,9 @@ void countsOfWords()
     }
     cout << "Result: " << word << endl;
 }
-void enterString()
-{
-    cout << "Enter stroku: ";
-    cin.getline(stroka, 100);
-}
 int main()
 {
-    enterString();
-    countsOfWords();
+    char stroka[100];
+    enterString(stroka);
+    countsOfWords(stroka);
 }
