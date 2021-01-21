@@ -49,6 +49,7 @@ int main()
     information_2.fullInfo();
 
 
+
     cout << endl;
 
     manager_v3.addVideocard("RTX 3090", "GeForce 30 Series", 2550, 3506);

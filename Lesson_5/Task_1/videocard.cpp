@@ -18,14 +18,6 @@ void videocard::setPrice(double newPrice)
         price = newPrice;
     }
 }
-void videocard::list_all()
-{
-    //showCardsAmount();
-    for(videocard temp : videocards)
-    {
-        cout << temp.getName() << "\t" << temp.getSeries() << "\t" << temp.getPrice() << "$" << "\t" << temp.getParrot() << " Parrots" << endl;
-    }
-}
 
 void videocard::addVideocard(string name, string series, int price, int parrot)
 {

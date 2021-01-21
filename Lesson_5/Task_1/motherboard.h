@@ -25,8 +25,6 @@ public:
     int getSocket() {return socket;}
 
 
-    void list_all();
-
     void addMotherboard(string name, string model, int price, int socket);
 
 private:
