@@ -3,7 +3,6 @@
 
 #include <string>
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
@@ -32,8 +31,6 @@ private:
     string model;
     int socket;
     double price;
-
-    vector<motherboard> motherboards;
 };
 
 #endif // MOTHERBOARD_H

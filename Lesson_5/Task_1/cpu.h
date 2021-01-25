@@ -3,7 +3,6 @@
 
 #include <string>
 #include <iostream>
-#include <vector>
 
 
 using namespace std;
@@ -36,8 +35,6 @@ private:
     double frequency;
     int parrot;
     int socket;
-
-    vector<CPU> cpus;
 };
 
 #endif // CPU_H

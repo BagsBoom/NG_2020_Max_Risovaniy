@@ -66,9 +66,3 @@ int main()
 
     return 0;
 }
-
-
-
-/*manager.addVideocard("GTX 1050 Ti", "GeForce 10 Series", 237, 922);
-manager_2.addCPU("Intel","i7 9700",3000, 311, 1151);
-manager_3.addMotherboard("Gigabyte", "H310M", 56, 1151); */

@@ -3,7 +3,6 @@
 
 #include <string>
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
@@ -31,8 +30,6 @@ private:
     string series;
     double price;
     int parrot;
-
-        vector<videocard> videocards;
 };
 
 #endif // VIDEOCARD_H
