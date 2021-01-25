@@ -1,9 +1,7 @@
 #include "calculator.h"
 #include "ui_calculator.h"
-#include <QDoubleValidator>
 #include <QLineEdit>
 #include <QString>
-#include <QDebug>
 
 Calculator::Calculator(QWidget *parent)
     : QMainWindow(parent)
